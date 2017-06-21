@@ -5,4 +5,4 @@ This project should consider changing content, and the files produced should be 
 
 You are being provided two mockups. One represents the main website landing page, and the other represents a product detail page.
 
-Mockups will be provided in the github project for this repository for overall reference. Please follow assigned tickets however, when begining work.
+Mockups will be provided in the github projects section for this repository for overall reference. Please follow assigned tickets however, when begining work.
