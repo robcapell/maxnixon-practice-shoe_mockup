@@ -1,0 +1,29 @@
+
+.floatLeft {
+  float: left;
+}
+ul li {
+  display: inline;
+}
+div:first-child{
+  
+  margin-bottom: 90px;
+  padding-left: 900px;
+  padding-top: 10px;
+
+}
+div:first-child li{
+  margin-right: 12px;
+}
+div:nth-child(2) li{
+  margin-right: 5px
+}
+div:nth-child(2) li:nth-child(6){
+ margin-right: 330px
+}
+div:nth-child(2) li:nth-child(4):before, div:nth-child(2) li:nth-child(6):before{
+   content: " | ";
+}
+ div:first-child li:first-child:after{
+  content: " | ";
+ }
