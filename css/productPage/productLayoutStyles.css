@@ -1,43 +1,29 @@
-#header-conainer {
-  height: 130px;
-}
-#bottomNavBar, {
-  height: 80px;
-  width: 80%;
-  float: right;
-  
-}
-#topNavBar {
-  height: 50px;
-  width: 80%;
-  float: right; 
-  
-}
-#topNavBar nav{
-  font-size: 14px;
-  display: inline-block;
-  text-align: center;
-  margin-right: 20px;
-}
 
-#bottomNavBar nav {
-  font-size: 16px;
-  display: inline-block;
-  text-align: center;
-  margin-right: 20px;
-}
-#topNavBar nav:nth-child(1) {
-  margin-left: 600px;
-}
-#bottomNavBar nav:nth-child(6){
-  margin-right: 200px;
-}
-#addidasLogo {
-  height: 80px;
-  width: 20%;
+.floatLeft {
   float: left;
 }
-#loginIcon{
-  height: 20px;
-  width: 20px;
+ul li {
+  display: inline;
 }
+div:first-child{
+  
+  margin-bottom: 90px;
+  padding-left: 900px;
+  padding-top: 10px;
+
+}
+div:first-child li{
+  margin-right: 12px;
+}
+div:nth-child(2) li{
+  margin-right: 5px
+}
+div:nth-child(2) li:nth-child(6){
+ margin-right: 330px
+}
+div:nth-child(2) li:nth-child(4):before, div:nth-child(2) li:nth-child(6):before{
+   content: " | ";
+}
+ div:first-child li:first-child:after{
+  content: " | ";
+ }
