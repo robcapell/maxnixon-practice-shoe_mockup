@@ -1,0 +1,21 @@
+
+.floatLeft {
+  float: left;
+}
+ul li {
+  display: inline;
+}
+div:first-child{
+  
+  margin-bottom: 60px;
+  padding-left: 900px
+}
+div:first-child li{
+  margin-right: 8px;
+}
+div:nth-child(2) li{
+  margin-right: 5px
+}
+div:nth-child(2) li:nth-child(6){
+  margin-right: 200px
+}
